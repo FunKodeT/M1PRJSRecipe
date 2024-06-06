@@ -1,0 +1,90 @@
+.recipe {
+	border-radius: 10px;
+	border: 2px solid pink;
+	box-shadow: 0px 5px 20px rgb(71, 71, 71);
+	background-image: linear-gradient(
+		to bottom right,
+		#ff95e1 25%,
+		#ff64d3 50%,
+		#ff14bc 75%,
+		#52003a 100%
+	);
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	min-width: 40%;
+	max-width: 45%;
+	text-transform: capitalize;
+}
+.search-bar {
+	border: 1px solid #52003a;
+	border-radius: 5px;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+a:hover {
+	position: relative;
+	bottom: 3px;
+	text-decoration: underline;
+	text-shadow: 4px 4px #f83aff7c;
+}
+div,
+h1 {
+	border-bottom: 2px solid #fc97ff;
+	border-radius: 10px;
+	top: 0px;
+	font-family: cursive;
+	text-align: center;
+	width: 100%;
+	margin: 0px;
+	height: 100%;
+}
+div,
+ol {
+	list-style-type: none;
+	text-align: left;
+}
+fieldset {
+	border-style: none;
+}
+.calCount {
+	max-width: 100%;
+	max-height: 100%;
+	position: inherit;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	bottom: 0;
+	border-radius: 10%;
+	color: white;
+	background-color: #50505065;
+}
+
+.image {
+	border-radius: 25%;
+	border: 2px solid pink;
+	width: 200px;
+	height: 200px;
+}
+.image:hover {
+	position: relative;
+	bottom: 2px;
+}
+/* div,
+img[src='{image}'] {
+	background-image: 100%;
+} */
+/* .image {
+	border-radius: 10px;
+	max-width: 99%;
+	max-height: 75%;
+} */
+/* .image {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+} */
